@@ -1,3 +1,5 @@
 ---
 title: "Shop"
 ---
+
+See what's available!
