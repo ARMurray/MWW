@@ -2,8 +2,8 @@
 title: "About"
 ---
 
-About this site
+## Welcome
 
-```{r}
-1 + 1
-```
+Hello! My name is Andrew Murray and I craft unique and custom pieces out of locally and sustainably sourced wood. Whether you're looking for a one-of-a-kind furniture piece, a handcrafted cutting board, or a personalized gift, I'm here to bring your vision to life.
+Browse through my [Gallery](gallery.qmd) to see some of my previous work, or visit the [Shop](shop.qmd) to explore available items. If you have a specific project in mind or would like to discuss custom orders, please don't hesitate to [Contact](contact.qmd) me. I look forward to working with you!
+

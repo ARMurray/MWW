@@ -2,4 +2,7 @@
 title: "Shop"
 ---
 
+## Coming Soon!
+
 See what's available!
+

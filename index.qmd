@@ -1,19 +1,15 @@
 ---
-title: "Welcome"
+title: ""
 ---
 
 
-##Needles & Bolts Popup Shop
+## Needles & Bolts Popup Shop
 
 Below is a list of products we're offering today at Needles & Bolts!
 
-Please do not pay for an item until you have physically selected it. The person checking you out will need to confirm the sale before any payment is accepted.
+**Please do not pay for an item until you have physically selected it. The person checking you out will need to confirm the sale before any payment is accepted.**
 
 
-
-:::{.alert .alert-info .text-center}
-How to Pay: Click the "Pay Now" button, enter the exact price listed below (including tax), and complete your card payment on the secure Stripe page.
-:::
 
 <div class="table-responsive shadow-xl rounded-xl">
 <table class="table table-hover align-middle mb-0 bg-white">
@@ -29,7 +25,7 @@ How to Pay: Click the "Pay Now" button, enter the exact price listed below (incl
 <!-- ROW 1: Signature Item -->
   <tr>
     <td style="width: 15%;">
-      <img src="https://placehold.co/100x100/b45309/ffffff?text=Clapper" class="rounded-lg object-cover shadow-sm" alt="Product 2 Photo">
+      <img src="https://placehold.co/100x100/FBBA72/ffffff?text=Clapper" class="rounded-lg object-cover shadow-sm" alt="Product 2 Photo">
     </td>
     <td>
       <h6 class="fw-bold mb-1">Clapper</h6>
@@ -48,17 +44,36 @@ How to Pay: Click the "Pay Now" button, enter the exact price listed below (incl
   <!-- ROW 2: High-Value Item -->
   <tr>
     <td style="width: 15%;">
-      <img src="https://placehold.co/100x100/dc2626/ffffff?text=Ruler Holder" class="rounded-lg object-cover shadow-sm" alt="Product 3 Photo">
+      <img src="https://placehold.co/100x100/F4442E/ffffff?text=Cat Ruler Holder" class="rounded-lg object-cover shadow-sm" alt="Product 3 Photo">
+    </td>
+    <td>
+      <h6 class="fw-bold mb-1">Limited Edition Cat Ruler Holder</h6>
+      <p class="text-muted mb-0 text-sm">Made from spalted maple, this cat shaped ruler will keep you organized.</p>
+    </td>
+    <td class="fw-bold text-lg text-success">
+      $50.00
+    </td>
+    <td>
+      <a href="https://buy.stripe.com/28E14neH82hFcZS1fH1kA04" target="_blank" class="btn btn-sm btn-success shadow">
+        <i class="fas fa-credit-card"></i> Pay Now
+      </a>
+    </td>
+  </tr>
+  
+  <!-- ROW 2: High-Value Item -->
+  <tr>
+    <td style="width: 15%;">
+      <img src="https://placehold.co/100x100/BBE1C3/000000?text=Ruler Holder" class="rounded-lg object-cover shadow-sm" alt="Product 3 Photo">
     </td>
     <td>
       <h6 class="fw-bold mb-1">Ruler Holder</h6>
       <p class="text-muted mb-0 text-sm">Made from spalted maple, this piece will keep your rulers organized in style.</p>
     </td>
     <td class="fw-bold text-lg text-success">
-      $60.00
+      $45.00
     </td>
     <td>
-      <a href="https://buy.stripe.com/fZucN5dD4g8v3pi3nP1kA02" target="_blank" class="btn btn-sm btn-success shadow">
+      <a href="https://buy.stripe.com/14A9ATeH89K70d62jL1kA05" target="_blank" class="btn btn-sm btn-success shadow">
         <i class="fas fa-credit-card"></i> Pay Now
       </a>
     </td>
@@ -86,7 +101,7 @@ How to Pay: Click the "Pay Now" button, enter the exact price listed below (incl
   <!-- ROW 5: Low-Cost Item -->
   <tr>
     <td style="width: 15%;">
-      <img src="https://placehold.co/100x100/6b7280/ffffff?text=Signs" class="rounded-lg object-cover shadow-sm" alt="Product 5 Photo">
+      <img src="https://placehold.co/100x100/A690A4/ffffff?text=Signs" class="rounded-lg object-cover shadow-sm" alt="Product 5 Photo">
     </td>
     <td>
       <h6 class="fw-bold mb-1">Signs</h6>
@@ -96,7 +111,27 @@ How to Pay: Click the "Pay Now" button, enter the exact price listed below (incl
       $15.00-25.00
     </td>
     <td>
-      <a href="YOUR_STRIPE_PAYMENT_LINK" target="_blank" class="btn btn-sm btn-success shadow">
+      <a href="https://buy.stripe.com/00wcN5aqS5tR7Fy1fH1kA07" target="_blank" class="btn btn-sm btn-success shadow">
+        <i class="fas fa-credit-card"></i> Pay Now
+      </a>
+    </td>
+  </tr>
+</tbody>
+
+<!-- ROW 5: Low-Cost Item -->
+  <tr>
+    <td style="width: 15%;">
+      <img src="https://placehold.co/100x100/00A7E1/ffffff?text=Misc." class="rounded-lg object-cover shadow-sm" alt="Product 5 Photo">
+    </td>
+    <td>
+      <h6 class="fw-bold mb-1">Other Items</h6>
+      <p class="text-muted mb-0 text-sm">Payment link for other items. Please confirm item and price before using.</p>
+    </td>
+    <td class="fw-bold text-lg text-success">
+      $ --.--
+    </td>
+    <td>
+      <a href="https://buy.stripe.com/7sY14n1Um4pN5xq0bD1kA06" target="_blank" class="btn btn-sm btn-success shadow">
         <i class="fas fa-credit-card"></i> Pay Now
       </a>
     </td>
@@ -110,7 +145,4 @@ How to Pay: Click the "Pay Now" button, enter the exact price listed below (incl
 
 
 
-
-Welcome! My name is Andrew Murray and I craft unique and custom pieces out of locally and sustainably sourced wood. Whether you're looking for a one-of-a-kind furniture piece, a handcrafted cutting board, or a personalized gift, I'm here to bring your vision to life.
-Browse through my [Gallery](gallery.qmd) to see some of my previous work, or visit the [Shop](shop.qmd) to explore available items. If you have a specific project in mind or would like to discuss custom orders, please don't hesitate to [Contact](contact.qmd) me. I look forward to working with you!
 
