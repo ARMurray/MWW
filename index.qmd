@@ -2,4 +2,115 @@
 title: "Welcome"
 ---
 
-# COMING SOON
+
+##Needles & Bolts Popup Shop
+
+Below is a list of products we're offering today at Needles & Bolts!
+
+Please do not pay for an item until you have physically selected it. The person checking you out will need to confirm the sale before any payment is accepted.
+
+
+
+:::{.alert .alert-info .text-center}
+How to Pay: Click the "Pay Now" button, enter the exact price listed below (including tax), and complete your card payment on the secure Stripe page.
+:::
+
+<div class="table-responsive shadow-xl rounded-xl">
+<table class="table table-hover align-middle mb-0 bg-white">
+<thead class="bg-primary text-white">
+<tr>
+<th scope="col" class="py-3">Photo</th>
+<th scope="col" class="py-3">Item & Description</th>
+<th scope="col" class="py-3">Price</th>
+<th scope="col" class="py-3">Action</th>
+</tr>
+</thead>
+<tbody>
+<!-- ROW 1: Signature Item -->
+  <tr>
+    <td style="width: 15%;">
+      <img src="https://placehold.co/100x100/b45309/ffffff?text=Clapper" class="rounded-lg object-cover shadow-sm" alt="Product 2 Photo">
+    </td>
+    <td>
+      <h6 class="fw-bold mb-1">Clapper</h6>
+      <p class="text-muted mb-0 text-sm">Made from Maple and Cedar, this clapper will hold down seams and smell good doing it!</p>
+    </td>
+    <td class="fw-bold text-lg text-success">
+      $45.00
+    </td>
+    <td>
+      <a href="https://buy.stripe.com/00wcN57eG6xVcZS7E51kA01" target="_blank" class="btn btn-sm btn-success shadow">
+        <i class="fas fa-credit-card"></i> Pay Now
+      </a>
+    </td>
+  </tr>
+  
+  <!-- ROW 2: High-Value Item -->
+  <tr>
+    <td style="width: 15%;">
+      <img src="https://placehold.co/100x100/dc2626/ffffff?text=Ruler Holder" class="rounded-lg object-cover shadow-sm" alt="Product 3 Photo">
+    </td>
+    <td>
+      <h6 class="fw-bold mb-1">Ruler Holder</h6>
+      <p class="text-muted mb-0 text-sm">Made from spalted maple, this piece will keep your rulers organized in style.</p>
+    </td>
+    <td class="fw-bold text-lg text-success">
+      $60.00
+    </td>
+    <td>
+      <a href="https://buy.stripe.com/fZucN5dD4g8v3pi3nP1kA02" target="_blank" class="btn btn-sm btn-success shadow">
+        <i class="fas fa-credit-card"></i> Pay Now
+      </a>
+    </td>
+  </tr>
+  
+  <!-- ROW 3: Bundle / Multi-pack -->
+  <tr>
+    <td style="width: 15%;">
+      <img src="https://placehold.co/100x100/064e3b/ffffff?text=Cutting+Board" class="rounded-lg object-cover shadow-sm" alt="Product 4 Photo">
+    </td>
+    <td>
+      <h6 class="fw-bold mb-1">Cutting Boards</h6>
+      <p class="text-muted mb-0 text-sm">A variety of cutting boards and trays are availble. Please confirm the price before submitting payment.</p>
+    </td>
+    <td class="fw-bold text-lg text-success">
+      $60.00-150.00
+    </td>
+    <td>
+      <a href="https://buy.stripe.com/aFadR92Yq7BZf800bD1kA03" target="_blank" class="btn btn-sm btn-success shadow">
+        <i class="fas fa-credit-card"></i> Pay Now
+      </a>
+    </td>
+  </tr>
+  
+  <!-- ROW 5: Low-Cost Item -->
+  <tr>
+    <td style="width: 15%;">
+      <img src="https://placehold.co/100x100/6b7280/ffffff?text=Signs" class="rounded-lg object-cover shadow-sm" alt="Product 5 Photo">
+    </td>
+    <td>
+      <h6 class="fw-bold mb-1">Signs</h6>
+      <p class="text-muted mb-0 text-sm">A variety of oak signs. Please confirm price before submitting payment.</p>
+    </td>
+    <td class="fw-bold text-lg text-success">
+      $15.00-25.00
+    </td>
+    <td>
+      <a href="YOUR_STRIPE_PAYMENT_LINK" target="_blank" class="btn btn-sm btn-success shadow">
+        <i class="fas fa-credit-card"></i> Pay Now
+      </a>
+    </td>
+  </tr>
+</tbody>
+
+
+
+
+
+
+
+
+
+Welcome! My name is Andrew Murray and I craft unique and custom pieces out of locally and sustainably sourced wood. Whether you're looking for a one-of-a-kind furniture piece, a handcrafted cutting board, or a personalized gift, I'm here to bring your vision to life.
+Browse through my [Gallery](gallery.qmd) to see some of my previous work, or visit the [Shop](shop.qmd) to explore available items. If you have a specific project in mind or would like to discuss custom orders, please don't hesitate to [Contact](contact.qmd) me. I look forward to working with you!
+
