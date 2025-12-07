@@ -11,6 +11,7 @@ website:
       - shop.qmd
       - gallery.qmd
       - contact.qmd
+      - care.qmd
 
 format:
   html:
