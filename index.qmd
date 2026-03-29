@@ -4,7 +4,9 @@ title: "Handcrafted Wooden Gifts and Furniture"
 
 ## Welcome to Murray Woodworks!
 
-This page is under construction. Please check back soon!
+![](images/banner.png){width='100%'}
+
+Welcome! At Murray Woodworks, we specialize in creating beautiful, handcrafted wooden gifts and furniture that are perfect for any occasion. Whether you're looking for a unique gift for a loved one or a custom piece to enhance your home, we've got you covered.Take a look around our website to explore our [Gallery](gallery.qmd) of past projects, check out our [Shop](shop.qmd) for available items, and learn more [About](about.qmd) our craftsmanship. If you have any questions or would like to discuss a custom order, please feel free to [Contact](contact.qmd) us. We're excited to help you find the perfect wooden piece!
 
 
 

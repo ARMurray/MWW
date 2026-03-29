@@ -2,4 +2,7 @@
 title: "Gallery"
 ---
 
-Photos Coming Soon!
+Below, you'll find a selection of handcrafted wooden gifts and furniture pieces created with care and precision. Each item reflects a commitment to quality craftsmanship and sustainable sourcing. Feel free to browse through the images and get inspired for your next custom order!
+
+## Cribbage Board
+![Cribbage Board](images/gallery/cribbage.png){width='60%'}
