@@ -159,8 +159,115 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="welcome-to-murray-woodworks">Welcome to Murray Woodworks!</h2>
 <p><img src="images/banner.png" class="img-fluid" style="width:100.0%"></p>
 <p>Welcome! At Murray Woodworks, we specialize in creating beautiful, handcrafted wooden gifts and furniture that are perfect for any occasion. Whether you’re looking for a unique gift for a loved one or a custom piece to enhance your home, we’ve got you covered.Take a look around our website to explore our <a href="./gallery.html">Gallery</a> of past projects, check out our <a href="./shop.html">Shop</a> for available items, and learn more <a href="./about.html">About</a> our craftsmanship. If you have any questions or would like to discuss a custom order, please feel free to <a href="./contact.html">Contact</a> us. We’re excited to help you find the perfect wooden piece!</p>
+<!-- 1. FULL WIDTH CAROUSEL NAVIGATION -->
+<div id="heroCarousel" class="carousel slide mb-5 shadow-lg" data-bs-ride="carousel">
+<!-- Indicators/Dots -->
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+</button>
+<button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2">
+</button>
+<button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3">
+</button>
+</div>
+<!-- The Slideshow Items -->
+<div class="carousel-inner rounded-3">
+<!-- Slide 1: Shop -->
+<div class="carousel-item active" data-bs-interval="5000">
+<a href="./shop.html"> <img src="images/banner_shop.png" class="d-block w-100 object-fit-cover" style="height: 450px;" alt="Shop Our Inventory">
+</a><div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-4"><a href="./shop.html">
+<pre><code>  &lt;h2 class="display-5 fw-bold text-white"&gt;Live Inventory Shop&lt;/h2&gt;
+  &lt;p class="lead"&gt;Browse our serialized components and add to your cart in real-time.&lt;/p&gt;
+  &lt;span class="btn btn-primary btn-lg"&gt;Start Shopping&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+</a><p><a href="./shop.html"></a></p>
+</div>
+<!-- Slide 2: Gallery -->
+<div class="carousel-item" data-bs-interval="5000">
+<a href="./gallery.html"> <img src="images/banner_gallery.jpg" class="d-block w-100 object-fit-cover" style="height: 450px;" alt="Product Gallery">
+</a><div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-4"><a href="./gallery.html">
+<pre><code>  &lt;h2 class="display-5 fw-bold text-white"&gt;Materials Gallery&lt;/h2&gt;
+  &lt;p class="lead"&gt;View high-resolution photography and technical specs of our products.&lt;/p&gt;
+  &lt;span class="btn btn-primary btn-lg"&gt;View Gallery&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+</a><p><a href="./gallery.html"></a></p>
+</div>
+<!-- Slide 3: About -->
+<div class="carousel-item" data-bs-interval="5000">
+<a href="./about.html"> <img src="images/banner_about.jpg" class="d-block w-100 object-fit-cover" style="height: 450px;" alt="About Us">
+</a><div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-3 p-4"><a href="./about.html">
+<pre><code>  &lt;h2 class="display-5 fw-bold text-white"&gt;Our Mission&lt;/h2&gt;
+  &lt;p class="lead"&gt;Learn about our commitment to serialized tracking and quality supply chains.&lt;/p&gt;
+  &lt;span class="btn btn-primary btn-lg"&gt;Learn More&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+</a><p><a href="./about.html"></a></p>
+</div>
+</div>
+<!-- Left and right controls/icons -->
+<button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span>
+</button>
+</div>
+<!-- 2. POPUP MENU TABLE -->
+<div class="container-fluid">
+<h2 class="text-center mb-4 anchored">
+Today’s Quick-Pay Menu
+</h2>
+<div class="alert alert-info text-center shadow-sm">
+<p><strong>How to Pay:</strong> Click “Pay Now,” enter the exact price listed below, and complete your secure Stripe payment.</p>
+</div>
+<div class="table-responsive shadow-xl rounded-xl">
+<table class="table table-hover align-middle mb-0 bg-white border">
+<thead class="bg-primary text-white">
+<tr class="text-uppercase text-xs letter-spacing-1">
+<th scope="col" class="py-3 px-4">
+Photo
+</th>
+<th scope="col" class="py-3">
+Item &amp; Description
+</th>
+<th scope="col" class="py-3">
+Price
+</th>
+<th scope="col" class="py-3 text-center">
+Action
+</th>
+</tr>
+</thead>
+<tbody>
+<!-- ROW 1 -->
+<tr>
+<td style="width: 15%;" class="px-4">
+<img src="https://placehold.co/120x120/1e40af/ffffff?text=CANDLE" class="rounded-lg shadow-sm border" alt="Product 1">
+</td>
+<td>
+<h6 class="fw-bold mb-1 anchored">
+Signature Zen Candle
+</h6>
+<p class="text-muted mb-0 small">
+Large soy candle. Sandalwood &amp; Vanilla. 50hr burn.
+</p>
+</td>
+<td class="fw-bold text-lg text-success">
+$15.00
+</td>
+<td class="text-center">
+<a href="YOUR_STRIPE_PAYMENT_LINK" target="_blank" class="btn btn-success shadow-sm px-4">Pay Now</a>
+</td>
+</tr>
+<!-- Add more rows here as needed following the pattern above -->
+</tbody>
+</table>
+</div>
+</div>
 
 
+</div>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
