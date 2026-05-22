@@ -188,22 +188,15 @@ toc: false
     <div class="about-intro-text">
       <h2>Hi, I'm Andrew.</h2>
       <p>
-        I grew up in my dad's basement shop — a modest setup with a Delta table saw, a band saw,
-        and just enough tools to fix anything that broke. We weren't making art. We were making
-        things work. But somewhere along the way, I realized that functional and beautiful didn't
-        have to be mutually exclusive.
+        Growing up, I was always fascinated by all of the tools in my Dad's workshop. From an early age,
+         I was always helping my dad fix one thing or another around the house and like my most kids,
+          I hated it. But as I got older I began to understand the value of knowing how to fix something yourself, and to appreciate the satisfying feeling of doing something with your own hands instead of asking for help. As I continued to grow my knowledge past my college years, I started to demand more from the things I made. I didn't want to just make something that worked, I wanted to make something that was beautiful, that would last, and that I could be proud of.
       </p>
       <p>
-        I'm not a natural artist. I can't draw. I never could. But I discovered that wood gave me
-        a creative outlet I didn't know I needed. The grain, the figure, the character that comes
-        out when you run a slab through the planer for the first time — it stopped feeling like a
-        project and started feeling like a conversation with the material.
+        While I would never consider myself as a 'born artist', I have always loved making things. My goal for this shop is to create pieces that I am proud of and that will be cherished by the people who buy them. I want to make things that are not only functional but also beautiful, and that will last for generations to come. As a sole propiertor business, you can have confidence that every piece is made with care and attention to detail, and that I stand behind my work. I am committed to providing excellent customer service and to creating pieces that you will be excited to own or to gift to your loved ones.
       </p>
       <p>
-        These days, woodworking is as close to meditation as I get. Every piece gets my full
-        attention from the first cut to the final coat of finish. I combine hand techniques with
-        a CNC machine for joinery and detail work that would otherwise take weeks to do by hand —
-        but the eye, the judgment, and the sanding block at the end? That's always me.
+        I'm always interested in trying out something new or challenging, so if you have an idea for a custom piece, don't hesitate to reach out. I love working with customers to bring their ideas to life and to create something truly unique and special.
       </p>
     </div>
   </div>
@@ -215,21 +208,12 @@ toc: false
     <div class="about-sourcing-text">
       <h2>Wood that means something.</h2>
       <p>
-        As a lifelong environmentalist, I can't separate what I make from where the material
-        comes from. I source nearly all of my hardwood from small local mills and individual
+        As a lifelong environmentalist, I feel a responsibility to ensure that I source nearly all of my hardwood from small local mills and individual
         craftspeople in the greater Cincinnati area — people who share a commitment to responsible
-        land stewardship.
+        land stewardship. While I will use the occasional exotic hardwood for a special piece, my preference is to
+        source locally, and to work with wood that was sustainably harvested. Local varieties available include walnut, cherry, maple, oak, cedar and hickory, among others.
       </p>
-      <p>
-        These aren't plantation trees. Most of the wood I work with comes from old trees that
-        needed to come down — storm damage, disease, land clearing done right. Trees that would
-        otherwise be chipped or left to rot are instead kiln-dried and given a second life as
-        something that will last another hundred years in someone's home.
-      </p>
-      <p>
-        I'll occasionally source an exotic hardwood for a special piece, but even then I'm
-        deliberate about it. The default is always local, always small, always traceable.
-      </p>
+
     </div>
     <img
       src="images/andrew_cnc.jpg"
