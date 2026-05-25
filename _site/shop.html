@@ -687,6 +687,118 @@ ul.task-list li input[type="checkbox"] {
 <!-- Toast -->
 <div class="toast" id="toast"></div>
 
+<!-- ── Return Policy ── -->
+<section class="return-policy">
+  <div class="return-policy-inner">
+    <div class="return-policy-heading">
+      <span class="return-icon">↩</span>
+      <h3 class="anchored">Return Policy</h3>
+    </div>
+    <div class="return-policy-grid">
+      <div class="return-card">
+        <div class="return-card-label">Custom Pieces</div>
+        <p>
+          Custom orders are made specifically for you, so returns are only accepted if there is a
+          structural defect — meaning something went wrong on our end. If your piece has a craftsmanship
+          issue, reach out and we'll make it right.
+        </p>
+      </div>
+      <div class="return-divider"></div>
+      <div class="return-card">
+        <div class="return-card-label">All Other Items</div>
+        <p>
+          Not the right fit? Shop items can be returned within <strong>30 days</strong> of delivery
+          for a refund. Refunds are issued for the item price only — original and return shipping
+          costs are not included.
+        </p>
+      </div>
+    </div>
+    <p class="return-footer-note">
+      Questions about a return? Reach out at <a href="mailto:Murraywoodworksllc@gmail.com">Murraywoodworksllc@gmail.com</a> and we'll sort it out.
+    </p>
+  </div>
+</section>
+
+<style>
+  .return-policy {
+    margin-top: 4rem;
+    background: var(--cream);
+    border-top: 2px solid var(--wood-light);
+    padding: 3rem 1rem 2.5rem;
+  }
+  .return-policy-inner {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .return-policy-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1.75rem;
+  }
+  .return-icon {
+    font-size: 1.3rem;
+    color: var(--wood-warm);
+  }
+  .return-policy-heading h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--wood-dark);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .return-policy-grid {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 0 2rem;
+    margin-bottom: 1.5rem;
+  }
+  @media (max-width: 600px) {
+    .return-policy-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem 0;
+    }
+    .return-divider { display: none; }
+  }
+  .return-divider {
+    background: var(--wood-light);
+    width: 1px;
+  }
+  .return-card-label {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--wood-warm);
+    margin-bottom: 0.6rem;
+  }
+  .return-card p {
+    font-size: 0.93rem;
+    color: var(--text-mid);
+    line-height: 1.7;
+    margin: 0;
+  }
+  .return-card strong {
+    color: var(--wood-dark);
+  }
+  .return-footer-note {
+    font-size: 0.83rem;
+    color: var(--text-light);
+    margin: 0;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--wood-light);
+  }
+  .return-footer-note a {
+    color: var(--green-accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .return-footer-note a:hover {
+    text-decoration: underline;
+  }
+</style>
+
 <script>
   const SUPABASE_URL  = 'https://ajfrywnzlflihaxeyvoa.supabase.co';
   const SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqZnJ5d256bGZsaWhheGV5dm9hIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc5MzY0MjQsImV4cCI6MjA5MzUxMjQyNH0.b1DKxunkP3DARBhwbXZbKMcNYWI0Rr3ETSbUC2nK3PI';
