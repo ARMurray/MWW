@@ -1,0 +1,205 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+```{=html}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap');
+
+  :root {
+    --mww-brown:  #5C3D2E;
+    --mww-tan:    #C8A87A;
+    --mww-green:  #3B5249;
+    --mww-cream:  #F7F2EA;
+    --mww-dark:   #1E1309;
+  }
+
+  body { background: var(--mww-cream); }
+  #quarto-content { padding: 0 !important; }
+  .page-layout-full main { padding: 0 !important; }
+
+  /* ══════════════════════════════════════
+     SUCCESS SECTION
+  ══════════════════════════════════════ */
+  .success-wrap {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    background: var(--mww-cream);
+  }
+  .success-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 40px rgba(92,61,46,0.12);
+    max-width: 560px;
+    width: 100%;
+    padding: 3.5rem 3rem;
+    text-align: center;
+    animation: fadeUp 0.5s ease both;
+  }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .success-icon {
+    width: 72px;
+    height: 72px;
+    background: var(--mww-green);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.75rem;
+  }
+  .success-icon svg {
+    width: 36px;
+    height: 36px;
+    stroke: #fff;
+    stroke-width: 2.5;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  /* Animate the checkmark */
+  .check-path {
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    animation: drawCheck 0.5s ease 0.3s forwards;
+  }
+  @keyframes drawCheck {
+    to { stroke-dashoffset: 0; }
+  }
+
+  .success-card h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    color: var(--mww-brown);
+    margin: 0 0 0.75rem;
+  }
+  .success-card .subhead {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #6b5040;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+  }
+
+  .success-divider {
+    border: none;
+    border-top: 1px solid rgba(200,168,122,0.4);
+    margin: 0 0 2rem;
+  }
+
+  .success-note {
+    background: var(--mww-cream);
+    border-left: 3px solid var(--mww-tan);
+    border-radius: 0 4px 4px 0;
+    padding: 1rem 1.25rem;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  .success-note p {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.92rem;
+    font-weight: 300;
+    color: var(--mww-dark);
+    line-height: 1.65;
+    margin: 0;
+  }
+  .success-note strong {
+    font-weight: 700;
+    color: var(--mww-brown);
+  }
+
+  .success-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .mww-btn {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 0.75rem 2rem;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    display: inline-block;
+  }
+  .mww-btn-primary {
+    background: var(--mww-tan);
+    color: var(--mww-dark);
+    border: 2px solid var(--mww-tan);
+  }
+  .mww-btn-primary:hover {
+    background: transparent;
+    color: var(--mww-tan);
+    text-decoration: none;
+  }
+  .mww-btn-outline {
+    background: transparent;
+    color: var(--mww-brown);
+    border: 2px solid var(--mww-brown);
+  }
+  .mww-btn-outline:hover {
+    background: var(--mww-brown);
+    color: #fff;
+    text-decoration: none;
+  }
+</style>
+
+<section class="success-wrap">
+  <div class="success-card">
+
+    <div class="success-icon">
+      <svg viewBox="0 0 24 24">
+        <path class="check-path" d="M5 13l4 4L19 7"/>
+      </svg>
+    </div>
+
+    <h1>Order Received!</h1>
+    <p class="subhead">
+      Thank you for your purchase. Your piece is in good hands —
+      every order is packed with care before it leaves the shop.
+    </p>
+
+    <hr class="success-divider">
+
+    <div class="success-note">
+      <p>
+        <strong>What happens next?</strong><br>
+        You'll receive a receipt from Stripe at the email you entered at checkout.
+        Andrew will be in touch within 1–2 business days with shipping details.
+        Feel free to reach out anytime at
+        <a href="mailto:Murraywoodworksllc@gmail.com" style="color: var(--mww-brown);">Murraywoodworksllc@gmail.com</a>
+        if you have questions.
+      </p>
+    </div>
+
+    <div class="success-actions">
+      <a href="shop.html" class="mww-btn mww-btn-primary">Back to Shop</a>
+      <a href="gallery.html" class="mww-btn mww-btn-outline">View Gallery</a>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  // Clear the cart on successful purchase
+  localStorage.removeItem('mww_cart');
+
+  // Reset the cart count badge if it exists on this page
+  const cartCount = document.getElementById('cart-count');
+  if (cartCount) cartCount.textContent = '0';
+</script>
+```
